@@ -14,7 +14,7 @@ export default {
     path:String,
     activeColor:{
       type:String,
-      default:'red'
+      default:'blue'
     }
   },
   data(){
@@ -22,6 +22,8 @@ export default {
       // isActive:true
     }
   },
+
+
   computed:{
     isActive(){
       // return this.$route.path.indexOf(this.path) !== -1
